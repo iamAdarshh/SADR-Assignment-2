@@ -1,0 +1,11 @@
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/saaj/test/org/apache/axis2/saaj/integration/IntegrationTest.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/samples/jaxws-samples/src/main/org/apache/axis2/jaxws/samples/servlet/EchoPingSampleServlet.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/samples/jaxws-samples/src/main/org/apache/axis2/jaxws/samples/client/SampleClient.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/samples/userguide/src/userguide/clients/ClientUtil.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/samples/userguide/src/userguide/example2/MyService.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/samples/userguide/src/userguide/example1/MyService.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/samples/json/src/sample/json/service/JsonService.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/json/test/org/apache/axis2/json/gson/rpc/JSONRPCIntegrationTest.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/json/test/org/apache/axis2/json/gson/rpc/JSONPOJOService.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/json/test/org/apache/axis2/json/moshi/rpc/JSONRPCIntegrationTest.java
+/Users/adarshchoudhary/Documents/University of Paderborn/Software Architecture Design and Recovery/Assignment 2/code/axis-axis2-java-core/modules/json/test/org/apache/axis2/json/moshi/rpc/JSONPOJOService.java
