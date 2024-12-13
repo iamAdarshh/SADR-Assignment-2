@@ -1,0 +1,44 @@
+import subprocess
+import os
+
+def execute_command(input_project: str, indicator_terms_csv: str, threshold: float, output_file: str) -> None:
+    # Validate the threshold
+    if not (0 <= threshold <= 1):
+        raise ValueError("Threshold must be between 0 and 1.")
+    
+    # Validate file paths
+    if not os.path.exists(input_project):
+        raise FileNotFoundError(f"Input project path '{input_project}' does not exist.")
+    if not os.path.exists(indicator_terms_csv):
+        raise FileNotFoundError(f"IndicatorTerms.csv path '{indicator_terms_csv}' does not exist.")
+    if not os.path.isdir(os.path.dirname(output_file)):
+        raise FileNotFoundError(f"The output directory for '{output_file}' does not exist.")
+    
+    # Construct the command
+    command = [
+        'java', '-jar', 'Archi.jar',
+        input_project,
+        indicator_terms_csv,
+        str(threshold),
+        output_file
+    ]
+    
+    # Execute the command
+    try:
+        result = subprocess.run(command, check=True, text=True, capture_output=True)
+        print(f"Command executed successfully. Output:\n{result.stdout}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing command: {e}")
+        print(f"Error details: {e.stderr}")
+    except FileNotFoundError as fnf_error:
+        print(f"File not found error: {fnf_error}")
+    except Exception as error:
+        print(f"An unexpected error occurred: {error}")
+
+# Example usage
+# input_project = r'axis-axis2-java-core'
+# indicator_terms_csv = r'data/IndicatorTerms.csv'
+# threshold = 0.5
+# output_file = r'data/archi/tacticalfiles.csv'
+
+# execute_command(input_project, indicator_terms_csv, threshold, output_file)
